@@ -1,0 +1,19 @@
+{
+  "name": "eersteserver",
+  "version": "1.0.0",
+  "description": "mijn eerste server",
+  "main": "server1.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxStubbe/node-eersteserver.git"
+  },
+  "author": "max stubbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxStubbe/node-eersteserver/issues"
+  },
+  "homepage": "https://github.com/MaxStubbe/node-eersteserver#readme"
+}
