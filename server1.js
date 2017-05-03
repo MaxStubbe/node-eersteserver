@@ -1,4 +1,8 @@
 var http = require('http');
+var express = require('express');
+
+var app = express();
+
 
 function onRequest(request, response){
 	console.log('er was een request');
@@ -7,6 +11,7 @@ function onRequest(request, response){
 	response.end();
 }
 	
-	http.createServer(onRequest).listen(process.env.PORT || 3000);
-	
+app.listen(process.env.PORT || 3000, function(){
 	console.log('De server luistert op port 3000');
+};
+	
